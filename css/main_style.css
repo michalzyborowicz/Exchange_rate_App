@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #29303b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  padding: 50px;
+  width: 800px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3f4b59), to(#333d46));
+  background-image: linear-gradient(#3f4b59, #333d46);
+  color: #fff;
+  text-align: center;
+  border: 1px solid #1c232d;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px #1c232d;
+          box-shadow: 0 0 15px #1c232d;
+}
+
+.wrapper h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.wrapper .title {
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.wrapper .app-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .app-body .section-left,
+.wrapper .app-body .section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .app-body input {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 60px;
+}
+
+.wrapper .app-body input,
+.wrapper .app-body select {
+  color: #fff;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+.wrapper .app-body select {
+  padding: 10px 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.wrapper .app-body input:focus,
+.wrapper .app-body select:focus {
+  outline: none;
+  color: rgb 67, 171, 255;
+}
+
+.wrapper .app-body option {
+  color: #333;
+}
+
+.wrapper .app-body .swap {
+  margin: 5px;
+  padding: 5px 50px;
+  background: #22c1c3;
+  background: linear-gradient(45deg, #22c1c3 0%, #2b7e3b 100%);
+  font-size: 30px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.wrapper .app-body .swap:focus {
+  outline: none;
+}
+
+.wrapper .rate-info {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 450px) {
+  .title {
+    margin-top: 30px;
+  }
+  .app-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .app-body .section-left {
+    margin-bottom: 20px;
+  }
+  .app-body .section-right {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=main_style.css.map */
